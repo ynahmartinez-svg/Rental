@@ -36,6 +36,7 @@
             comboBox1 = new ComboBox();
             button2 = new Button();
             dateTimePicker1 = new DateTimePicker();
+            monthCalendar1 = new MonthCalendar();
             SuspendLayout();
             // 
             // label1
@@ -108,11 +109,18 @@
             dateTimePicker1.Size = new Size(333, 27);
             dateTimePicker1.TabIndex = 7;
             // 
+            // monthCalendar1
+            // 
+            monthCalendar1.Location = new Point(740, 211);
+            monthCalendar1.Name = "monthCalendar1";
+            monthCalendar1.TabIndex = 8;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 449);
+            ClientSize = new Size(1308, 609);
+            Controls.Add(monthCalendar1);
             Controls.Add(dateTimePicker1);
             Controls.Add(button2);
             Controls.Add(comboBox1);
@@ -137,5 +145,6 @@
         private ComboBox comboBox1;
         private Button button2;
         private DateTimePicker dateTimePicker1;
+        private MonthCalendar monthCalendar1;
     }
 }
