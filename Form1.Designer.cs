@@ -34,42 +34,41 @@
             button1 = new Button();
             label3 = new Label();
             comboBox1 = new ComboBox();
+            button2 = new Button();
             SuspendLayout();
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(385, 25);
-            label1.Margin = new Padding(4, 0, 4, 0);
+            label1.Location = new Point(270, 15);
             label1.Name = "label1";
-            label1.Size = new Size(142, 25);
+            label1.Size = new Size(95, 15);
             label1.TabIndex = 0;
             label1.Text = "RENTAL SYSTEM";
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(65, 92);
-            label2.Margin = new Padding(4, 0, 4, 0);
+            label2.Location = new Point(46, 55);
             label2.Name = "label2";
-            label2.Size = new Size(63, 25);
+            label2.Size = new Size(42, 15);
             label2.TabIndex = 1;
             label2.Text = "Name:";
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(149, 92);
-            textBox1.Margin = new Padding(4, 4, 4, 4);
+            textBox1.Location = new Point(104, 55);
+            textBox1.Margin = new Padding(3, 2, 3, 2);
             textBox1.Name = "textBox1";
-            textBox1.Size = new Size(155, 31);
+            textBox1.Size = new Size(110, 23);
             textBox1.TabIndex = 2;
             // 
             // button1
             // 
-            button1.Location = new Point(105, 151);
-            button1.Margin = new Padding(4, 4, 4, 4);
+            button1.Location = new Point(74, 91);
+            button1.Margin = new Padding(3, 2, 3, 2);
             button1.Name = "button1";
-            button1.Size = new Size(212, 54);
+            button1.Size = new Size(148, 32);
             button1.TabIndex = 3;
             button1.Text = "button1";
             button1.UseVisualStyleBackColor = true;
@@ -77,10 +76,9 @@
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(596, 165);
-            label3.Margin = new Padding(4, 0, 4, 0);
+            label3.Location = new Point(417, 99);
             label3.Name = "label3";
-            label3.Size = new Size(59, 25);
+            label3.Size = new Size(38, 15);
             label3.TabIndex = 4;
             label3.Text = "label3";
             label3.Click += label3_Click;
@@ -88,23 +86,34 @@
             // comboBox1
             // 
             comboBox1.FormattingEnabled = true;
-            comboBox1.Location = new Point(530, 215);
+            comboBox1.Location = new Point(371, 129);
+            comboBox1.Margin = new Padding(2, 2, 2, 2);
             comboBox1.Name = "comboBox1";
-            comboBox1.Size = new Size(242, 33);
+            comboBox1.Size = new Size(171, 23);
             comboBox1.TabIndex = 5;
+            // 
+            // button2
+            // 
+            button2.Location = new Point(401, 183);
+            button2.Name = "button2";
+            button2.Size = new Size(75, 23);
+            button2.TabIndex = 6;
+            button2.Text = "button2";
+            button2.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
-            AutoScaleDimensions = new SizeF(10F, 25F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1000, 562);
+            ClientSize = new Size(700, 337);
+            Controls.Add(button2);
             Controls.Add(comboBox1);
             Controls.Add(label3);
             Controls.Add(button1);
             Controls.Add(textBox1);
             Controls.Add(label2);
             Controls.Add(label1);
-            Margin = new Padding(4, 4, 4, 4);
+            Margin = new Padding(3, 2, 3, 2);
             Name = "Form1";
             Text = "Form1";
             ResumeLayout(false);
@@ -119,5 +128,6 @@
         private Button button1;
         private Label label3;
         private ComboBox comboBox1;
+        private Button button2;
     }
 }
