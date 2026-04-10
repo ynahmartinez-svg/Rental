@@ -36,6 +36,7 @@
             comboBox1 = new ComboBox();
             button2 = new Button();
             dateTimePicker1 = new DateTimePicker();
+            button3 = new Button();
             SuspendLayout();
             // 
             // label1
@@ -108,11 +109,21 @@
             dateTimePicker1.Size = new Size(333, 27);
             dateTimePicker1.TabIndex = 7;
             // 
+            // button3
+            // 
+            button3.Location = new Point(462, 106);
+            button3.Name = "button3";
+            button3.Size = new Size(94, 29);
+            button3.TabIndex = 8;
+            button3.Text = "button3";
+            button3.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 449);
+            Controls.Add(button3);
             Controls.Add(dateTimePicker1);
             Controls.Add(button2);
             Controls.Add(comboBox1);
@@ -137,5 +148,6 @@
         private ComboBox comboBox1;
         private Button button2;
         private DateTimePicker dateTimePicker1;
+        private Button button3;
     }
 }
